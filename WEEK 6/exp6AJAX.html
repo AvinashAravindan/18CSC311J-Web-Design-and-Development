@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<head>
+    <title>AJAX</title>
+        <script type="text/javascript">
+            function loadData(){
+            var xmlHttp=new XMLHttpRequest();
+            xmlHttp.open("GET","data.txt",true);
+            xmlHttp.addEventListener("load", ajaxCallback, false);
+            xmlHttp.send();
+            function ajaxCallback(event){
+                document.getElementById("DATA").innerHTML=event.target.responseText;}
+    }
+        </script>
+        </head>
+        <body>
+            <pre><p id="DATA"></p></pre>
+            <hr>
+            <button onclick="loadData()">
+            Submit
+        </button>
+        </body>

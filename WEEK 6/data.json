@@ -1,0 +1,15 @@
+{
+   {
+        "modelNumber":"07",
+        "name":"iphone",
+        "price":"68,000",
+        "img":"https://rukminim2.flixcart.com/image/850/1000/xif0q/mobile/b/u/f/-original-imaghxa5hvapbfds.jpeg?q=90&crop=false"
+    },
+    {
+        "modelNumber":"07",
+        "name":"Oneplus",
+        "price":"25000",
+        "img":"https://fdn2.gsmarena.com/vv/bigpic/oneplus-nord.jpg"
+    }
+
+}
