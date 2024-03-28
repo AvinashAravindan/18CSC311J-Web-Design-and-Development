@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app>
+<servlet>
+
+<servlet-name>getGrade</servlet-name>
+
+<servlet-class>com.servlet.getGrade</servlet-class>
+
+</servlet>
+
+<servlet-mapping>
+
+<servlet-name>getGrade</servlet-name>
+
+<url-pattern>/getGrade</url-pattern>
+
+</servlet-mapping></web-app>
